@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "C#",
+			"path": ".."
+		},
+		{
+			"name": "Trenes",
+			"path": "../../Trenes"
+		}
+	],
+	"settings": {}
+}

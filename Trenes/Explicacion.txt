@@ -1,0 +1,96 @@
+– SISTEMA DE TRENES
+
+1. Vagon (clase abstracta)
+Es la clase base
+Tiene:
+Largo
+AnchoUtil
+Define:
+PesoMaximo() - método abstracto
+
+Todos los vagones deben saber calcular su peso
+
+2. DePasajeros (hereda de Vagon)
+Calcula pasajeros:
+ancho ≤ 2.5 → largo * 8
+ancho > 2.5 → largo * 10
+Peso:
+pasajeros * 80
+
+Solo transporta personas (no carga)
+
+3. DeCarga (hereda de Vagon)
+Tiene:
+CargaMaxima
+Peso:
+carga + 160 (dos guardas)
+
+No transporta pasajeros
+
+4. Locomotora
+Tiene:
+Peso
+arrastrePesoUtil (lo que puede tirar)
+VelocidadMaxima
+Método:
+ArrastreUtil() → arrastre - peso
+
+Representa la fuerza real para tirar vagones
+
+5. Formacion (EL CORAZÓN)
+
+Contiene:
+
+List<Vagon>
+List<Locomotora>
+EstaEnMovimiento
+Métodos importantes:
+TotalPasajeros()
+- suma pasajeros de vagones de pasajeros
+VagonesLivianos()
+- cuenta vagones con peso < 2500
+VelocidadMaxima()
+- mínima velocidad entre locomotoras
+PuedeMoverse()
+- arrastre total ≥ peso total de vagones
+KilosFaltantes()
+- cuánto falta para poder moverse
+
+-Esta clase maneja TODA la lógica del tren
+
+6. Deposito
+
+Contiene:
+
+List<Formacion>
+List<Locomotora>
+Métodos importantes
+NecesitaConductorExperimentado()
+
+-Devuelve true si alguna formación:
+
+tiene más de 20 unidades
+o pesa más de 10000 kg
+AgregarLocomotoraEnFormacion(...)
+
+-Agrega locomotora solo si:
+
+no está en movimiento
+hay locomotoras disponibles
+tiene suficiente arrastre
+
+7. Program.cs
+Crea objetos:
+vagones
+locomotoras
+formaciones
+depósito
+Agrega datos a listas
+Llama métodos y muestra resultados con: Console.WriteLine(...)
+
+IMPORTANTE
+Vagon -- define comportamiento común
+DePasajeros / DeCarga -- especializaciones
+Formacion -- lógica de UN tren
+Deposito -- maneja MUCHOS trenes
+Program -- ejecuta y prueba todo
