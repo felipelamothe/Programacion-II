@@ -1,0 +1,14 @@
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\bin\Debug\net10.0\Micros.exe
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\bin\Debug\net10.0\Micros.deps.json
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\bin\Debug\net10.0\Micros.runtimeconfig.json
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\bin\Debug\net10.0\Micros.dll
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\bin\Debug\net10.0\Micros.pdb
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.AssemblyInfoInputs.cache
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.AssemblyInfo.cs
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.dll
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\refint\Micros.dll
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.pdb
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\Micros.genruntimeconfig.cache
+C:\Users\Felipe\OneDrive\Escritorio\C#\Micros\obj\Debug\net10.0\ref\Micros.dll
